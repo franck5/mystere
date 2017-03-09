@@ -15,6 +15,12 @@ var response = prompt("veuillez entre un chiffre entre 0 et 3");
 		else {
 			console.log("Perdu");
 		}
+		if(response>solution) {
+			console.log("trop grand");
+		}
+		else {
+			console.log("trop petit");
+		}
 		
 	}
 
