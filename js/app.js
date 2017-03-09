@@ -1,8 +1,20 @@
 var solution = Math.floor(Math.random() *4); {
 
-console.log(solution);
+	console.log(solution);
 }
 
-var response = prompt(3); {
+	for (var i = 0; i < 3; i++) {
+var response = prompt("veuillez entre un chiffre entre 0 et 3");
 	console.log(response);
-}
+
+
+	if(response==solution) {
+		console.log("Gagné");
+		break;
+	}
+		else {
+			console.log("Perdu");
+		}
+		
+	}
+
